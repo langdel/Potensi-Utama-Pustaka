@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pustaka Potensi | Perpustakaan Digital Universitas Potensi Utama</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,8 +11,7 @@
 <link href="A.css" rel="stylesheet">
 </head>
 <body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90" tabindex="0">
-
-<!-- NAVBAR -->
+<!--navbar-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-brand-blue fixed-top shadow-sm" id="mainNav">
   <div class="container">
     <a class="navbar-brand navbar-brand-lib d-flex align-items-center" href="#beranda">
@@ -40,8 +39,7 @@
     </div>
   </div>
 </nav>
-
-<!-- ======================= BERANDA ======================= -->
+<!--beranda-->
 <header class="hero" id="beranda">
   <div class="container py-5">
     <div class="row align-items-center py-4">
@@ -75,7 +73,7 @@
     </div>
   </div>
 </header>
-<!-- PENGUMUMAN CAROUSEL -->
+<!--caraousel-->
 <section class="section pt-5 pb-4">
   <div class="container">
     <p class="section-title-eyebrow mb-2">Info Terbaru</p>
@@ -134,14 +132,14 @@
     </div>
   </div>
 </section>
-
-<!-- TENTANG -->
+<!--About-->
 <section class="section bg-brand-paper-soft" id="tentang">
   <div class="container">
     <div class="row align-items-center g-5">
       <div class="col-lg-6">
         <div class="row g-3">
           <div class="col-7">
+            <img src="pengumuman-uas.jpg">
             <div class="rounded-4" style="height:260px; background: var(--blue);"></div>
           </div>
           <div class="col-5 d-flex flex-column gap-3">
@@ -151,15 +149,14 @@
         </div>
       </div>
       <div class="col-lg-6">
-        <p class="section-title-eyebrow mb-2">Tentang Kami</p>
+        <p class="section-title-eyebrow mb-2">About</p>
         <h2 class="mb-3">Perpustakaan yang Tumbuh Bersama Kampus</h2>
-        <p class="text-ink-soft mb-4">Pustaka Potensi adalah layanan perpustakaan digital resmi Universitas Potensi Utama. Kami menghadirkan akses katalog, peminjaman, dan riwayat baca dalam satu halaman yang sederhana, cepat, dan bisa diakses dari perangkat apa pun.</p>
+        <p class="text-ink-soft mb-4">Pustaka Potensi merupakan website layanan perpustakaan digital Universitas Potensi Utama. Menghadirkan akses katalog, peminjaman, dan riwayat baca dalam satu halaman yang sederhana, cepat, dan bisa diakses dari perangkat apa pun.</p>
       </div>
     </div>
   </div>
 </section>
-
-<!-- BUKU PILIHAN - SHELF -->
+<!--ebook Populer-->
 <section class="section">
   <div class="container">
     <div class="d-flex justify-content-between align-items-end mb-4">
@@ -171,18 +168,17 @@
     </div>
 
     <div class="shelf" id="rakPopuler">
-      <!-- diisi JavaScript -->
+      <!--ebook diisi di data js-->
     </div>
   </div>
 </section>
-
 <!-- CTA -->
 <section class="section bg-brand-blue text-white">
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-7">
         <h2 class="mb-3">Siap Mulai Membaca?</h2>
-        <p class="mb-4" style="color:rgba(255,255,255,.8);">Buat permintaan peminjaman dalam hitungan menit dan pantau riwayat bacaanmu kapan saja.</p>
+        <p class="mb-4" style="color:rgba(255,255,255,.8);"><i>Baca kumpulan Ebook populer atau cari Ebook di katalog !</i></p>
         <div class="d-flex justify-content-center gap-3 flex-wrap">
           <a href="#peminjaman" class="btn btn-brand-red btn-lg px-4">Pinjam Buku Sekarang</a>
           <a href="#faq" class="btn btn-outline-light btn-lg px-4">Baca FAQ</a>
@@ -191,18 +187,14 @@
     </div>
   </div>
 </section>
-
 <div class="section-divider"></div>
-
-<!-- ======================= KATALOG BUKU ======================= -->
+<!--katalog ebook-->
 <section class="section" id="katalog">
   <div class="container">
     <p class="section-title-eyebrow mb-2">Koleksi</p>
     <h2 class="h3 mb-4">Katalog Buku</h2>
-
     <div class="row g-4">
-
-      <!-- SIDEBAR FILTER (desktop) -->
+      <!--filter ebook-->
       <aside class="col-lg-3 d-none d-lg-block">
         <div class="card border-0 shadow-sm sticky-top" style="top:90px;">
           <div class="card-body">
@@ -213,7 +205,7 @@
             </div>
             <h6 class="mb-3">Kategori</h6>
             <div class="list-group list-group-flush mb-4" id="filterKategoriSidebar">
-              <!-- diisi JavaScript -->
+              <!--data ebook di isi js-->
             </div>
             <h6 class="mb-3">Ketersediaan</h6>
             <div class="form-check form-switch mb-2">
@@ -224,8 +216,7 @@
           </div>
         </div>
       </aside>
-
-      <!-- MOBILE FILTER TRIGGER -->
+      <!--filter ofcanvas di mobile-->
       <div class="col-12 d-lg-none">
         <button class="btn btn-outline-brand-blue w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#filterOffcanvas">
           <i class="bi bi-sliders me-2"></i>Filter & Kategori
@@ -243,46 +234,36 @@
           </div>
           <h6 class="mb-3">Kategori</h6>
           <div class="list-group list-group-flush mb-4" id="filterKategoriOffcanvas">
-            <!-- diisi JavaScript -->
+            <!-- diisi data ebook js -->
           </div>
         </div>
       </div>
-
-      <!-- BOOK GRID -->
+      <!--grid ebook-->
       <div class="col-lg-9">
-
         <ul class="nav nav-pills mb-4 flex-wrap gap-2" id="katalogPills">
-          <!-- diisi JavaScript -->
+          <!--pengisian ebook di js-->
         </ul>
-
         <div class="d-flex justify-content-between align-items-center mb-3">
           <p class="small text-ink-soft mb-0" id="katalogCount">Ebook Yang Tersedia</p>
         </div>
-
         <div class="row g-4" id="gridKatalog">
-          <!-- diisi JavaScript -->
+          <!--pengisian di js-->
         </div>
-
         <div id="katalogEmpty" class="text-center py-5 d-none">
           <i class="bi bi-emoji-frown display-4 text-brand-blue"></i>
           <p class="mt-3 mb-0 text-ink-soft">Buku tidak ditemukan. Coba kata kunci atau filter lain.</p>
         </div>
-
         <nav class="mt-5" aria-label="Navigasi halaman katalog">
           <ul class="pagination justify-content-center" id="paginasiKatalog">
-            <!-- diisi JavaScript -->
+            <!-- diisi  di js -->
           </ul>
         </nav>
-
-
       </div>
     </div>
   </div>
 </section>
-
 <div class="section-divider"></div>
-
-<!-- ======================= MODAL DETAIL BUKU ======================= -->
+<!--modal ebook -->
 <div class="modal fade" id="modalDetailBuku" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content">
@@ -319,8 +300,7 @@
     </div>
   </div>
 </div>
-
-<!-- ======================= PEMINJAMAN ======================= -->
+<!--pinjnam ebook-->
 <section class="section" id="peminjaman">
   <div class="container">
     <p class="section-title-eyebrow mb-2">Layanan</p>
@@ -329,41 +309,34 @@
       <span class="badge bg-brand-blue rounded-pill px-3 py-2">Total: <span id="peminjamanCount">0</span></span>
     </div>
     <p class="text-ink-soft mb-4">Pinjam buku langsung dari <a href="#katalog">Katalog Buku</a> dengan tombol "Lihat" pada setiap judul, lalu akses e-book-nya di sini setelah dipinjam.</p>
-
     <div id="peminjamanEmpty" class="text-center py-5 d-none">
       <i class="bi bi-journal-x display-1 text-brand-blue"></i>
       <h5 class="mt-3">Belum Ada Buku yang Dipinjam</h5>
       <p class="text-ink-soft">Jelajahi katalog dan pinjam buku pertamamu.</p>
       <a href="#katalog" class="btn btn-brand-red"><i class="bi bi-search me-2"></i>Jelajahi Katalog</a>
     </div>
-
     <div id="listPeminjamanAktif">
-      <!-- diisi JavaScript -->
+      <!-- diisi js -->
     </div>
   </div>
 </section>
-
 <div class="section-divider"></div>
-
-<!-- ======================= RIWAYAT PEMINJAMAN ======================= -->
+<!--Riwayat pinjam-->
 <section class="section bg-brand-paper-soft" id="riwayat">
   <div class="container">
     <p class="section-title-eyebrow mb-2">Layanan</p>
     <h2 class="h3 mb-2">Riwayat Peminjaman</h2>
     <p class="text-ink-soft mb-4">Daftar buku yang pernah kamu ajukan untuk dipinjam, tersimpan di perangkat ini.</p>
-
     <div class="alert alert-info d-flex align-items-start" role="alert">
       <i class="bi bi-shield-lock me-2 fs-5"></i>
       <div class="small">Data riwayat disimpan menggunakan <strong>localStorage</strong> di browser ini saja. Jika kamu berpindah perangkat atau membersihkan data browser, riwayat tidak akan tersimpan.</div>
     </div>
-
     <div id="riwayatEmpty" class="text-center py-5 d-none">
       <i class="bi bi-inboxes display-1 text-brand-blue"></i>
       <h5 class="mt-3">Belum Ada Riwayat Peminjaman</h5>
       <p class="text-ink-soft">Ajukan peminjaman buku pertamamu sekarang.</p>
       <a href="#peminjaman" class="btn btn-brand-red"><i class="bi bi-journal-plus me-2"></i>Pinjam Buku</a>
     </div>
-
     <div id="riwayatTableWrap" class="table-responsive card border-0 shadow-sm d-none">
       <table class="table table-loan table-hover align-middle mb-0">
         <thead>
@@ -382,46 +355,25 @@
     </div>
   </div>
 </section>
-
 <div class="section-divider"></div>
-
-<!-- ======================= FAQ ======================= -->
+<!--FAQ-->
 <section class="section" id="faq">
   <div class="container">
     <p class="section-title-eyebrow mb-2">Bantuan</p>
     <h2 class="h3 mb-4">Pertanyaan yang Sering Diajukan</h2>
-
     <div class="row g-5">
       <div class="col-lg-8">
         <div class="accordion" id="accFaq">
           <div class="accordion-item">
             <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1">Apa itu Pustaka Potensi?</button></h2>
             <div id="q1" class="accordion-collapse collapse show" data-bs-parent="#accFaq">
-              <div class="accordion-body text-ink-soft">Pustaka Potensi adalah layanan perpustakaan digital resmi Universitas Potensi Utama yang menyediakan katalog, peminjaman, dan riwayat baca dalam                   satu halaman berbasis web.</div>
+              <div class="accordion-body text-ink-soft">Pustaka Potensi adalah layanan perpustakaan digital Universitas Potensi Utama yang menyediakan katalog, peminjaman, dan riwayat baca dalam                   satu halaman berbasis web.</div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2">Siapa saja yang bisa menggunakan layanan ini?</button></h2>
             <div id="q2" class="accordion-collapse collapse" data-bs-parent="#accFaq">
               <div class="accordion-body text-ink-soft">Seluruh mahasiswa aktif, dosen, dan staf Universitas Potensi Utama dapat menggunakan layanan ini secara gratis.</div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3">Bagaimana cara meminjam buku?</button></h2>
-            <div id="q3" class="accordion-collapse collapse" data-bs-parent="#accFaq">
-              <div class="accordion-body text-ink-soft">Buka bagian <a href="#peminjaman">Peminjaman Buku</a>, pilih judul yang tersedia, lengkapi data diri dan tanggal peminjaman, lalu klik "Ajukan                     Peminjaman". Data akan tersimpan otomatis di bagian Riwayat Peminjaman.</div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4">Berapa lama masa peminjaman?</button></h2>
-            <div id="q4" class="accordion-collapse collapse" data-bs-parent="#accFaq">
-              <div class="accordion-body text-ink-soft">Masa pinjam standar adalah 7 hari dan dapat diperpanjang satu kali melalui konfirmasi ke pustakawan.</div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5">Apa yang terjadi jika terlambat mengembalikan?</button>                </h2>
-            <div id="q5" class="accordion-collapse collapse" data-bs-parent="#accFaq">
-              <div class="accordion-body text-ink-soft">Keterlambatan dikenakan denda Rp1.000 per hari per buku sesuai kebijakan yang berlaku.</div>
             </div>
           </div>
           <div class="accordion-item">
@@ -439,12 +391,11 @@
           </div>
         </div>
       </div>
-
       <div class="col-lg-4">
         <div class="p-4 rounded-4 bg-brand-blue text-white mb-4">
           <i class="bi bi-headset fs-2 mb-2 d-block"></i>
           <h6>Masih Ada Pertanyaan?</h6>
-          <p class="small" style="color:rgba(255,255,255,.8);">Tim pustakawan kami siap membantu setiap hari kerja pukul 07.00–20.00.</p>
+          <p class="small" style="color:rgba(255,255,255,.8);">Tim pustakawan kami siap membantu setiap hari kerja pukul 08.00–16.00.</p>
           <a href="#kontak" class="btn btn-brand-red btn-sm w-100">Hubungi Kami</a>
         </div>
         <div class="list-group">
@@ -456,15 +407,12 @@
     </div>
   </div>
 </section>
-
 <div class="section-divider"></div>
-
-<!-- ======================= KONTAK ======================= -->
+<!--kontak-->
 <section class="section bg-brand-paper-soft" id="kontak">
   <div class="container">
     <p class="section-title-eyebrow mb-2">Hubungi Kami</p>
     <h2 class="h3 mb-4">Kirim Pesan ke Pustaka Potensi</h2>
-
     <div class="row g-5">
       <div class="col-lg-4">
         <div class="card border-0 shadow-sm mb-4">
@@ -488,7 +436,6 @@
           </div>
         </div>
       </div>
-
       <div class="col-lg-8">
         <div class="card border-0 shadow-sm p-4">
           <h5 class="mb-4">Kirim Pesan</h5>
@@ -520,59 +467,67 @@
             <button type="submit" class="btn btn-brand-red px-4"><i class="bi bi-send-fill me-2"></i>Kirim Pesan</button>
           </form>
         </div>
-
-        <div class="mt-4 rounded-4 d-flex align-items-center justify-content-center text-white" style="height:220px; background: var(--blue);">
-          <div class="text-center">
-            <i class="bi bi-map fs-1 mb-2 d-block"></i>
-            <p class="mb-0 small">Peta lokasi Universitas Potensi Utama, Medan</p>
-          </div>
-        </div>
       </div>
     </div>
   </div>
 </section>
-<!-- FOOTER -->
-<center>
+<!--footer-->
 <footer class="site-footer pt-5 pb-3">
   <div class="container">
     <div class="row g-4">
+      <!-- Kolom 1: Logo & Deskripsi -->
       <div class="col-lg-4">
         <h6 class="mb-3 d-flex align-items-center">
           <img src="Logopotensiutama.png" alt="Logo Universitas Potensi Utama" height="30" class="me-2 bg-white rounded p-1">
           Pustaka Potensi
         </h6>
         <p class="small">Layanan perpustakaan digital resmi Universitas Potensi Utama untuk seluruh sivitas akademik.</p>
-      </div>
-      <div class="col-lg-2 col-6">
-        <h6 class="mb-3">Navigasi</h6>
-        <ul class="list-unstyled small">
-          <li class="mb-2"><a href="#beranda">Beranda</a></li>
-          <li class="mb-2"><a href="#katalog">Katalog Buku</a></li>
-          <li class="mb-2"><a href="#peminjaman">Peminjaman</a></li>
-          <li class="mb-2"><a href="#riwayat">Riwayat</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-2 col-6">
-        <h6 class="mb-3">Bantuan</h6>
-        <ul class="list-unstyled small">
-          <li class="mb-2"><a href="#faq">FAQ</a></li>
-          <li class="mb-2"><a href="#kontak">Kontak</a></li>
-        </ul>
+        <br>
         <div class="d-flex gap-2">
           <a href="https://www.instagram.com/official_upu/" class="btn btn-sm btn-outline-light rounded-circle"><i class="bi bi-instagram"></i></a>
           <a href="https://www.facebook.com/potensiutamamedan/about" class="btn btn-sm btn-outline-light rounded-circle"><i class="bi bi-facebook"></i></a>
           <a href="https://www.youtube.com/@PotensiUtamaUniversitas" class="btn btn-sm btn-outline-light rounded-circle"><i class="bi bi-youtube"></i></a>
         </div>
       </div>
+      <div class="col-lg-2 col-6">
+        <h6 class="mb-3">Navigasi</h6>
+        <ul class="list-unstyled small">
+          <li class="mb-2"><a href="#beranda" class="text-decoration-none text-light">Beranda</a></li>
+          <li class="mb-2"><a href="#katalog" class="text-decoration-none text-light">Katalog Buku</a></li>
+          <li class="mb-2"><a href="#peminjaman" class="text-decoration-none text-light">Peminjaman</a></li>
+          <li class="mb-2"><a href="#riwayat" class="text-decoration-none text-light">Riwayat</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-6">
+        <h6 class="mb-3">Bantuan</h6>
+        <ul class="list-unstyled small">
+          <li class="mb-2"><a href="#faq" class="text-decoration-none text-light">FAQ</a></li>
+          <li class="mb-2"><a href="#kontak" class="text-decoration-none text-light">Kontak</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h6 class="mb-3">Lokasi Kami</h6>
+        <div class="ratio ratio-16x9 rounded overflow-hidden shadow-sm">
+          <!-- Ganti link src di bawah ini dengan embed Google Maps asli Universitas Potensi Utama -->
+          <iframe 
+            src="https://share.google/yuAAEfQ2Z8kU4JaHa" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
     </div>
     <hr class="mt-4" style="border-color: rgba(255,255,255,.15);">
+    <center>
     <div class="d-flex flex-wrap justify-content-between small">
       <p class="mb-0">&copy; 2026 Pustaka Potensi — Universitas Potensi Utama.</p>
     </div>
+    </center>
   </div>
 </footer>
-</center>
-<!-- TOAST -->
+<!--toast-->
 <div class="toast-container position-fixed bottom-0 end-0 p-3">
   <div id="peminjamanToast" class="toast align-items-center text-bg-dark border-0" role="alert">
     <div class="d-flex">
@@ -581,7 +536,6 @@
     </div>
   </div>
 </div>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="main.js"></script>
 </body>
