@@ -1,11 +1,3 @@
-/* =========================================================
-   PUSTAKA POTENSI — Perpustakaan Digital Universitas Potensi Utama
-   Design tokens
-   Blue  #233F66  (biru utama / identitas kampus)
-   Red   #C92D2E  (aksen / call to action / "pita buku")
-   White #DFDEDF  (latar lembut)
-   ========================================================= */
-
 :root{
   --blue: #233F66;
   --blue-dark: #172a47;
@@ -37,7 +29,7 @@ h1,h2,h3,h4, .display-font{
 
 a{ text-decoration:none; }
 
-/* ---------- Utility color helpers ---------- */
+/* ----------color---------- */
 .bg-brand-blue{ background-color: var(--blue) !important; }
 .bg-brand-red{ background-color: var(--red) !important; }
 .bg-brand-paper{ background-color: var(--paper) !important; }
@@ -66,7 +58,7 @@ a{ text-decoration:none; }
 }
 .btn-outline-brand-blue:hover{ background-color: var(--blue); color:#fff; }
 
-/* ---------- Navbar ---------- */
+/*navbar*/
 .navbar-brand-lib{
   font-family: var(--font-display);
   font-weight: 700;
@@ -106,7 +98,7 @@ a{ text-decoration:none; }
 #mainNav .nav-link:hover{ color:#fff; }
 #mainNav .nav-link.active{ border-bottom: 2px solid var(--red); }
 
-/* ---------- "Bookmark ribbon" signature element ---------- */
+/*bookmark ribbon*/
 .ribbon{
   position:absolute;
   top:-2px; right: 14px;
@@ -116,7 +108,7 @@ a{ text-decoration:none; }
   box-shadow: 0 3px 6px rgba(0,0,0,.15);
 }
 
-/* ---------- Hero (Beranda) ---------- */
+/*beranda*/
 .hero{
   background: linear-gradient(120deg, var(--blue) 0%, var(--blue-dark) 100%);
   color:#fff;
@@ -149,7 +141,6 @@ a{ text-decoration:none; }
   font-weight:700;
 }
 
-/* ---------- Book spine shelf (signature) ---------- */
 .shelf{
   display:flex;
   gap: 14px;
@@ -179,7 +170,7 @@ a{ text-decoration:none; }
   position:relative;
 }
 
-/* ---------- Book card ---------- */
+/*card ebook*/
 .book-card{
   position:relative;
   border: 1px solid #eae9e8;
@@ -200,9 +191,8 @@ a{ text-decoration:none; }
   text-align:center;
   padding: 1rem;
 }
-.rating-star{ color:#e0a72d; }
 
-/* ---------- Section spacing ---------- */
+/*-space section*/
 .section{ padding: 4.5rem 0; }
 .section-title-eyebrow{
   color: var(--red);
@@ -212,7 +202,7 @@ a{ text-decoration:none; }
   font-size:.78rem;
 }
 
-/* ---------- Footer ---------- */
+/*footer*/
 footer.site-footer{
   background: var(--blue-dark);
   color: rgba(255,255,255,.75);
@@ -221,7 +211,7 @@ footer.site-footer a{ color: rgba(255,255,255,.75); }
 footer.site-footer a:hover{ color:#fff; }
 footer.site-footer h6{ color:#fff; font-family: var(--font-display); }
 
-/* ---------- Misc ---------- */
+/*misc*/
 .divider-dot{
   width:5px; height:5px; border-radius:50%;
   background: var(--red);
@@ -245,7 +235,7 @@ footer.site-footer h6{ color:#fff; font-family: var(--font-display); }
   .hero .display-3{ font-size: 2.4rem; }
 }
 
-/* ---------- Single-page anchor navigation ---------- */
+/* navbar mob*/
 section[id], header[id]{ scroll-margin-top: 82px; }
 
 .logo-mark{
