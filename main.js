@@ -83,7 +83,7 @@ const dataBuku = [
     linkDrive:"https://drive.google.com/file/d/14twh2GMnJHavJbKgQHn4n5fBX5-lbvWb/view?usp=drivesdk" },
   { id:"PD-0019", judul:"Berani Tidak Disukai", penulis:"Ichiro Kishimi & Fumitake Koga", kategori:"Filsafat", isbn:"978-602-06-3322-0", tahun:2017, halaman:350, popular:true,
     deskripsi:"Fenomena dari Jepang untuk membebaskan diri, mengubah hidup, dan meraih kebahagiaan sejati berdasarkan psikologi Adler.",
-    cover:"https://drive.google.com/thumbnail?id=1earE9ZM5cxrithaIV-m_qnT_ERZPDzEq&sz=w800",
+    cover:"https://drive.google.com/thumbnail?id=19rBOQinoAVswRuSizwSFljcGb2oa1YwB&sz=w800",
     linkDrive:"https://drive.google.com/file/d/1rq9klYYCpaywR9Ai3dqowcLo-qxEByyb/view?usp=drivesdk" },
   { id:"PD-0020", judul:"Berdamai Dengan Diri Sendiri", penulis:"Muthia Sayekti", kategori:"Pengembangan Diri", isbn:"978-623-244-334-1", tahun:2017, halaman:225, popular:false,
     deskripsi:"Perjalanan menuju penerimaan dan kedamaian batin melalui refleksi mendalam tentang hubungan kita dengan diri sendiri.",
