@@ -113,10 +113,6 @@ const dataBuku = [
     deskripsi:"Respons kritis Marx terhadap Proudhon, mengupas hubungan antara ekonomi politik dan filsafat dari perspektif materialisme dialektis.",
     cover:"https://drive.google.com/file/d/1tAsmzSIRHiBz6PdL73vAeLIL-Jiooz95/view?usp=drivesdk",
     linkDrive:"https://drive.google.com/file/d/1Jd6WHdaknrcGiCHMuhgDyB6sNgFR44vI/view?usp=drivesdk" },
-    { id:"PD-0027", judul:"Aku Bukan Manusia Dinamit", penulis:"Friedrich Nietzsche", kategori:"Filsafat", isbn:"-", tahun:-, halaman:314, popular:true,
-    deskripsi:"Kumpulan esai karya Penulis Friedrich Nietzsche terhadap anarkisme.",
-    cover:"https://drive.google.com/file/d/18anbOZpHBLFispLS3LQDqU3mcMaOpYau/view?usp=drivesdk",
-    linkDrive:"https://drive.google.com/file/d/1IglBPfxMgu2IdsOi0hFbFrAt3AQHJ0Aj/view?usp=drivesdk" },
 ];
 
 const KATEGORI_LIST = ["Filsafat","Sastra","Pengembangan Diri","Sains","Ekonomi","Teknologi","Agama & Budaya"];
