@@ -81,7 +81,6 @@ a{ text-decoration:none; }
 }
 .footer-logo{
   width: 42px; height:42px;
-  background:#fff;
   border-radius: 8px;
   padding:3px;
   display:inline-flex;
@@ -241,7 +240,6 @@ section[id], header[id]{ scroll-margin-top: 82px; }
 .logo-mark{
   height: 40px;
   width: auto;
-  background: #fff;
   border-radius: 6px;
   padding: 3px 6px;
 }
